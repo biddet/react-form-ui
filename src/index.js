@@ -240,14 +240,14 @@ ReactDOM.render(<App />,
 document.getElementById('root'));
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBDUk8VNmhnKiefEZbzfI59PJV1X19EmBw",
-  authDomain: "react-form-ui.firebaseapp.com",
-  databaseURL: "https://react-form-ui.firebaseio.com",
-  projectId: "react-form-ui",
-  storageBucket: "react-form-ui.appspot.com",
-  messagingSenderId: "735989479827",
-  appId: "1:735989479827:web:b594e93a05135daf985066",
-  measurementId: "G-VEXFK0EMS3"
+ apiKey: "AIzaSyCgRSmjw1iWIcAVMXg5cd6Yic7cW69G15c",
+  authDomain: "onid-1.firebaseapp.com",
+  databaseURL: "https://onid-1-default-rtdb.firebaseio.com",
+  projectId: "onid-1",
+  storageBucket: "onid-1.appspot.com",
+  messagingSenderId: "23407192164",
+  appId: "1:23407192164:web:7bb33752c48b7cf1769771",
+  measurementId: "G-R6Z1SPWMJV"
 };
 
 firebase.initializeApp(firebaseConfig);
