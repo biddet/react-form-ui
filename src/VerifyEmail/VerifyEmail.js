@@ -104,7 +104,7 @@ class VerifyEmail extends React.Component {
                 <div className="child" style={{opacity: this.state.childOpacity}} >
                     <Title h1={this.state.h1} p="Account successfully made please verify your email" />
                     <SVG.EmailEnvlope />
-                    <p>An Email has been sent to <span className="user-email">{this.props.email} </span> with a link to verify your account.</p>
+                    <p>An Email has been sent to <span className="user-email">{this.props.email} </span> with a link to verify your account. Make sure to check your spam folder.</p>
                     <p>If you have not receive the mail please click on resent email</p>
                     <div className="verify-btn">
                         <button onClick={this.resendEmail} type="button" className="verify-btn1" >Resend email</button>
